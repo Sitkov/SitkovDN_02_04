@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sing_in_screen"
+    android:background="@color/orange"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textColor="@color/lightblue"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:textColor="@color/black"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="0dp"
+        />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_emil"
+        android:textSize="12sp"
+        android:textColorHint="@color/lightblue"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="-10dp"
+        />
+
+    <TextView
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:textColor="@color/black"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="0dp"
+        />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_password"
+        android:textSize="12sp"
+        android:textColorHint="@color/lightblue"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="-10dp"
+        />
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:background="@drawable/button_login"
+        android:text="@string/enter"
+        android:textColor="@color/white"
+        android:layout_marginLeft="30dp"
+        />
+</LinearLayout>
